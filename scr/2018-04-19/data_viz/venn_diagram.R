@@ -46,5 +46,12 @@ dataObservations <- apply(dataObservations, 2, function(col) {
 featureCounts <- dataObservations %>% apply(2, function(col) {col > 0}) 
 
 vennCountTable <- vennCounts(featureCounts)
-#colnames(vennCountTable) <- c()
-vennDiagram(vennCountTable)
+colnames(vennCountTable) <- c("CSW intracellular", 
+                              "CSW DOC",
+                              "QV intracellular",
+                              "QV DOC",
+                              "Counts")
+vennDiagram(vennCountTable, circle.col = c("blue", "blue", "orange", "orange"),
+            mar = rep(0.01,4),
+            cex = c(1.2,1.2,1.2),
+            show.include = F)

@@ -1,5 +1,17 @@
 # Notebook
 
+## 2018-04-23
+
+I need to finish algorithm to check each compound for retention time matches within scoring system. Find current code in progress within:
+scr/2018-04-23/checkingPathways.R
+
+Also - get Lauren a table of how much each correction is changing features for each sample. Should have columns of 
+
+1) post processing
+2) Blank correction
+3) adduct correction
+4) Final Count
+
 ## 2018-04-20
 
 Sent the density and venn diagram off to Lauren. Next I need to check the pathways she recommended to suggest possible metabolites to check for retention time. See email for more.

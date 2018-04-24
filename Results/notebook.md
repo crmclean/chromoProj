@@ -2,6 +2,10 @@
 
 ## 2018-04-23
 
+I got everything to Lauren. See scripts from scr/2018-04-23/. They are responsible for:
+1) generating a QA table
+2) generating a table of scored kegg cpds
+
 I need to finish algorithm to check each compound for retention time matches within scoring system. Find current code in progress within:
 scr/2018-04-23/checkingPathways.R
 
